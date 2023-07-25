@@ -1,2 +1,22 @@
 @charset "UTF-8";
 
+/* common
+------------------------------ */
+body {
+    background-color: black;
+}
+
+/* header
+------------------------------ */
+header h1 {
+    color: white;
+}
+
+/* main
+------------------------------ */
+
+/* footer
+------------------------------ */
+footer small {
+    color: white;
+}
