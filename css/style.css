@@ -3,21 +3,25 @@
 /* common
 ------------------------------ */
 body {
-    background-color: black;
+    background-color: #000000;
 }
 
 /* header
 ------------------------------ */
 header h1 {
-    background-color: gray;
-    color: white;
+    background-color: #2C2C2C;
+    color: #FFFFFF;
 }
 
 /* main
 ------------------------------ */
+main {
+    background-color: #300A24;
+    color: #FFFFFF;
+}
 
 /* footer
 ------------------------------ */
 footer small {
-    color: white;
+    color: #FFFFFF;
 }
