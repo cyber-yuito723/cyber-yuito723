@@ -4,41 +4,67 @@
 ------------------------------ */
 body {
     background-color: #000000;
-}
-
-/* header
------------------------------- */
-header {
-    width: 100%;
-    height: 50px;
-    background-color: #2C2C2C;
-}
-
-header h1 {
-    line-height: 50px;
-    font-size: 30px;
     color: #FFFFFF;
     font-family: 'M PLUS 1', sans-serif;
 }
 
-/* main
+a {
+    text-decoration: none;
+}
+
+/* header
 ------------------------------ */
-main {
-    background-color: #300A24;
+header .title-bar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2C2C2C;
+}
+
+header .header-left {
+    display: flex;
+}
+
+header .header-left img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+header .header-left h1 {
+    line-height: 50px;
+    font-size: 15px;
     color: #FFFFFF;
+}
+
+header .header-right {
+    display: flex;
+    list-style:none
+}
+
+header .header-right img {
+    width: 20px;
+    height: 20px;
+    margin: 15px;
+}
+
+header .shell {
+    background-color: #300A24;
+    font-size: 20px;
     font-family: 'M PLUS 1 Code', sans-serif;
 }
 
-main .green {
-    color: #26A269;
+header .shell .green {
+    color: #4C960B;
 }
 
-main .blue {
+header .shell .blue {
     color: #08458F;
 }
 
+/* main
+------------------------------ */
+
 /* footer
 ------------------------------ */
-footer small {
-    color: #FFFFFF;
-}
