@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+li {
+    list-style: none;
+}
+
 /* header
 ------------------------------ */
 header {
@@ -49,7 +53,6 @@ header .header-left h1 {
 
 header .header-right {
     display: flex;
-    list-style:none
 }
 
 header .header-right img {
