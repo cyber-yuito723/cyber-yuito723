@@ -20,6 +20,14 @@ main {
     color: #FFFFFF;
 }
 
+.green {
+    color: #26A269;
+}
+
+.blue {
+    color: #08458F;
+}
+
 /* footer
 ------------------------------ */
 footer small {
