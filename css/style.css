@@ -8,9 +8,13 @@ body {
 
 /* header
 ------------------------------ */
-header h1 {
+header {
     background-color: #2C2C2C;
+}
+
+header h1 {
     color: #FFFFFF;
+    font-family: 'M PLUS 1', sans-serif;
 }
 
 /* main
@@ -18,13 +22,14 @@ header h1 {
 main {
     background-color: #300A24;
     color: #FFFFFF;
+    font-family: 'M PLUS 1 Code', sans-serif;
 }
 
-.green {
+main .green {
     color: #26A269;
 }
 
-.blue {
+main .blue {
     color: #08458F;
 }
 
