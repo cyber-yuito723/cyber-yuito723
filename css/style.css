@@ -24,7 +24,7 @@ li {
 ------------------------------ */
 header {
     margin: 5%;
-    filter: drop-shadow(0 0 5px #484848);
+    filter: drop-shadow(0 0 5px #2C2C2C);
 }
 
 header .title-bar {
