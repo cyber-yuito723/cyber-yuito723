@@ -6,9 +6,14 @@ body {
     background-color: #000000;
     color: #FFFFFF;
     font-family: 'M PLUS 1', sans-serif;
+    word-wrap: break-word;
 }
 
 h1 {
+    color: #FFFFFF;
+}
+
+p {
     color: #FFFFFF;
 }
 
@@ -81,6 +86,33 @@ header .shell .blue {
 
 /* main
 ------------------------------ */
+main {
+    padding: 0 5%;
+}
+
+main .my-projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main .my-favorite-programming-languages {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+main .my-favorite-linux-distributions {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+/*
+main .main-left {
+    width: 500px;
+}
+
+main .main-right {
+    width: 500px;
+}*/
 
 /* footer
 ------------------------------ */
