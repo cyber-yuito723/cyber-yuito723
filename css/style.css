@@ -68,7 +68,7 @@ header .header-right img {
 
 header .shell {
     width: 100%;
-    height: 500px;
+    height: 50px;
     padding: 5px;
     border-radius: 0 0 10px 10px;
     background-color: #300A24;
@@ -95,13 +95,22 @@ main h1 {
 }
 
 main .main-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .main-line {
+    display: flex;
+    align-items: center;
+}
+
+main .main-line:nth-child(even) {
+    flex-direction: row-reverse;
 }
 
 main .main-contents {
-    height: 300px;
+    width: 50%;
+    max-height: 150px;
     padding: 15px;
 }
 
@@ -135,5 +144,4 @@ footer .footer-right img {
     width: 30px;
     height: 30px;
     margin: 35px 10px;
-    line-height: 100px;
 }
