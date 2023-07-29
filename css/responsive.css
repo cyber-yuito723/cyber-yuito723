@@ -4,4 +4,17 @@
     header .header-left h1 {
         display: none;
     }
+
+    main .main-line {
+        flex-direction: column-reverse;
+    }
+
+    main .main-line:nth-child(even) {
+        flex-direction: column-reverse;
+    }
+
+    main .main-contents {
+        width: 100%;
+        max-height: 150px;
+    }
 }
