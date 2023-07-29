@@ -5,7 +5,7 @@
         display: none;
     }
 
-    main .main-line {
+    main .main-line { 
         flex-direction: column-reverse;
     }
 
