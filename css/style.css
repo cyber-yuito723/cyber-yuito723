@@ -110,8 +110,8 @@ main .main-line:nth-child(even) {
 
 main .main-contents {
     width: 50%;
-    max-height: 250px;
-    padding: 15px;
+    max-height: 150px;
+    margin: 15px;
 }
 
 /* footer
