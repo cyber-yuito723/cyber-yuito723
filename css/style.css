@@ -110,6 +110,13 @@ main .main-contents {
     margin: 15px;
 }
 
+main .last-updated {
+    margin-top: 30px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 25px;
+}
+
 /* footer
 ------------------------------ */
 footer {
