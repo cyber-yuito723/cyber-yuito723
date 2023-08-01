@@ -104,9 +104,12 @@ main .main-line:nth-child(even) {
     flex-direction: row-reverse;
 }
 
+main .main-line img {
+    max-height: 200px;
+}
+
 main .main-contents {
     width: 50%;
-    max-height: 200px;
     margin: 15px;
 }
 
